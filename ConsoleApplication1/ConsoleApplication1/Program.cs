@@ -10,8 +10,12 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hola Mundo");
-            System.Console.WriteLine("Ejemplo");
+            //System.Console.WriteLine("Hola Mundo");
+            //System.Console.WriteLine("Ejemplo");
+            //System.Console.ReadKey();
+
+            Fibonacci Fibo = new Fibonacci();
+            System.Console.WriteLine(Fibonacci.Calcular(2));
             System.Console.ReadKey();
         }
     }
